@@ -28,7 +28,7 @@
             <el-menu-item index="1-3">电话:15388236496</el-menu-item>
         </el-menu-item-group>
         <el-submenu index="1-4">
-          <template slot="title"><a href="https://github.com/ARCHERSPAPA" target="_blank">我的github</a></template>
+          <template slot="title"><a href="https://github.com/ARCHERSPAPA/todolist" target="_blank">我的github</a></template>
           <el-menu-item index="1-4-1" >下载项目源码</el-menu-item>
         </el-submenu>
       </el-submenu>

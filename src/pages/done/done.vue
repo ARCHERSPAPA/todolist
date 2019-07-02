@@ -47,28 +47,21 @@ export default {
       vm[i] = s;  
       }
     }
-
-    
-
-for(let i =0;i<vm.length;i++){
+    for(let i =0;i<vm.length;i++){
    var datas= {
         date: "",
         name: "",
         description: "",
         datenow: ""
       }
-  
-    datas["date"] = vm[i][2];
+      datas["date"] = vm[i][2];
      datas["name"] = vm[i][0];
      datas["description"] = vm[i][1];
      datas["datenow"] = vm[i][5];
       console.log(datas)
         this.tableData.push(datas)
 }
-     
-      
- 
-  },
+     },
   methods: {
     handleEdit(index, row) {
 
@@ -85,7 +78,6 @@ console.log(data)
     }
   
   }
-
 };
 </script>
 <style lang="less" scoped>
